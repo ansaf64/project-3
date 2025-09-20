@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hotel Website for booking rooms and services">
+    <title>Hotel Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Hotel Paradise</h1>
+            <p>Your dream stay awaits!</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Hotel Paradise offers the best hospitality with stunning views and luxury rooms. Whether you're here for business or leisure, we provide top-notch services to make your stay unforgettable.</p>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room-list">
+            <div class="room">
+                <img src="https://via.placeholder.com/400" alt="Room 1">
+                <h3>Deluxe Room</h3>
+                <p>Perfect for families with modern amenities.</p>
+            </div>
+            <div class="room">
+                <img src="https://via.placeholder.com/400" alt="Room 2">
+                <h3>Executive Suite</h3>
+                <p>For business travelers with a touch of luxury.</p>
+            </div>
+            <div class="room">
+                <img src="https://via.placeholder.com/400" alt="Room 3">
+                <h3>Standard Room</h3>
+                <p>Comfortable and affordable with all necessary amenities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="booking-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="checkin">Check-In Date</label>
+            <input type="date" id="checkin" name="checkin" required>
+            
+            <label for="checkout">Check-Out Date</label>
+            <input type="date" id="checkout" name="checkout" required>
+            
+            <label for="rooms">Number of Rooms</label>
+            <select id="rooms" name="rooms" required>
+                <option value="1">1 Room</option>
+                <option value="2">2 Rooms</option>
+                <option value="3">3 Rooms</option>
+            </select>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Hotel Paradise | All Rights Reserved</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
